@@ -137,7 +137,7 @@ POST /ask/ --- Ask a question --- Form field: `question`
 ```bash
 # Clone the repo
 $ git clone https://github.com/sabhavathyashwanth/Medical-Assistant---RAG-Application.git
-$ cd medicalAssistant/server
+$ cd Medical-Assistant---RAG-Application/server
 
 # Create virtual env
 $ uv venv
@@ -155,7 +155,7 @@ PINECONE_API_KEY=...
 $ uvicorn main:app --reload --port 8000
 
 
-$ cd medicalAssistant/client
+$ cd Medical-Assistant---RAG-Application/client
 
 # Create virtual env
 $ uv venv
